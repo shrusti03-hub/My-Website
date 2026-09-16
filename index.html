@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content=" — fashion inspiration, budget finds, trending looks and curated affiliate picks." />
+  <title>StyleAuraFashion | Fashion Finds & Style Inspiration</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand" aria-label="StyleAuraFashion home">Style<span>AuraFashion</span></a>
+
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#trending">Trending</a>
+        <a href="#shop">Shop the Look</a>
+        <a href="#guides">Style Guides</a>
+        <a href="#about">About</a>
+      </nav>
+
+      <a class="nav-cta" href="#shop">Shop Finds</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">FASHION • FINDS • INSPIRATION</span>
+          <h1>Your style,<br><em>beautifully curated.</em></h1>
+          <p>
+            Discover trending outfits, affordable fashion finds and everyday style inspiration —
+            handpicked to help you shop smarter and dress with confidence.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-dark" href="#shop">Shop the Look</a>
+            <a class="btn btn-light" href="#trending">Explore Trends</a>
+          </div>
+          <div class="mini-proof">
+            
+        </div>
+
+        <div class="hero-media">
+          <div class="hero-image main-photo" role="img" aria-label="Stylish neutral fashion outfit"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="trending">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">TRENDING NOW</span>
+            <h2>Looks worth saving</h2>
+          </div>
+          <p>Fresh outfit for weekend plans and everyday dressing.</p>
+        </div>
+
+        <div class="trend-grid">
+          <article class="trend-card tall">
+            <div class="trend-img trend-1"></div>
+            <div class="trend-overlay">
+      
+              <h3>Neutral Minimalism</h3>
+              <a href="#shop">Shop →</a>
+            </div>
+          </article>
+
+          <article class="trend-card">
+            <div class="trend-img trend-2"></div>
+            <div class="trend-overlay">
+          
+              <h3>Weekend Chic</h3>
+              <a href="#shop">Shop →</a>
+            </div>
+          </article>
+
+          <article class="trend-card">
+            <div class="trend-img trend-3"></div>
+            <div class="trend-overlay">
+            
+              <h3>Soft Feminine</h3>
+              <a href="#shop">Shop →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-section" id="shop">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">SHOP THE LOOK</span>
+            <h2>Curated fashion finds</h2>
+          </div>
+        
+        </div>
+
+        <div class="filter-row" role="group" aria-label="Product categories">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="dress">Dresses</button>
+          <button class="filter-btn" data-filter="top">Tops</button>
+          <button class="filter-btn" data-filter="buttom">Bottom</button>
+          <button class="filter-btn" data-filter="bag">Bags</button>
+          <button class="filter-btn" data-filter="Footwear">Footwear</button>
+          <button class="filter-btn" data-filter="shoe">Accessories</button>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card" data-category="dress">
+            <div class="product-image prod-1">
+              <span class="badge">BESTSELLER</span>
+              <button class="save-btn" aria-label="Save item">♡</button>
+            </div>
+            <div class="product-body">
+              <div>
+                <span class="product-kicker">DRESS</span>
+                
+              <a class="shop-link" href="https://example.com" target="_blank" rel="nofollow sponsored noopener">Shop now →</a>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="top">
+            <div class="product-image prod-2">
+              <span class="badge">TRENDING</span>
+              <button class="save-btn" aria-label="Save item">♡</button>
+            </div>
+            <div class="product-body">
+              <div>
+                <span class="product-kicker">TOP</span>
+                
+              <a class="shop-link" href="https://example.com" target="_blank" rel="nofollow sponsored noopener">Shop now →</a>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="bottom">
+            <div class="product-image prod-3">
+              <span class="badge">TRENDING</span>
+              <button class="save-btn" aria-label="Save item">♡</button>
+            </div>
+            <div class="product-body">
+              <div>
+                <span class="product-kicker">BOTTOM</span>
+                
+              <a class="shop-link" href="https://example.com" target="_blank" rel="nofollow sponsored noopener">Shop now →</a>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="bag">
+            <div class="product-image prod-4">
+              <span class="badge">TRENDING</span>
+              <button class="save-btn" aria-label="Save item">♡</button>
+            </div>
+            <div class="product-body">
+              <div>
+                <span class="product-kicker">BAG</span>
+                
+              <a class="shop-link" href="https://example.com" target="_blank" rel="nofollow sponsored noopener">Shop now →</a>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="heels">
+            <div class="product-image prod-5">
+              <span class="badge">NEW</span>
+              <button class="save-btn" aria-label="Save item">♡</button>
+            </div>
+            <div class="product-body">
+              <div>
+                <span class="product-kicker">FOOTWEAR</span>
+                
+              <a class="shop-link" href="https://example.com" target="_blank" rel="nofollow sponsored noopener">Shop now →</a>
+            </div>
+          </article>
+
+           <article class="product-card" data-category="accessories">
+            <div class="product-image prod-6">
+              <span class="badge">TRENDING</span>
+              <button class="save-btn" aria-label="Save item">♡</button>
+            </div>
+            <div class="product-body">
+              <div>
+                <span class="product-kicker">ACCESSORIES</span>
+                
+              <a class="shop-link" href="https://example.com" target="_blank" rel="nofollow sponsored noopener">Shop now →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pinterest-section">
+      <div class="container pinterest-grid">
+        <div class="pinterest-copy">
+          <span class="eyebrow">PIN • SAVE • STYLE</span>
+          <h2>Made for your Pinterest mood board</h2>
+          <p>
+            Save outfit inspiration now, come back when you’re ready to shop,
+            and build a wardrobe that feels like you.
+          </p>
+          <a class="btn btn-dark" href="https://www.pinterest.com/" target="_blank" rel="noopener">Visit Pinterest</a>
+        </div>
+        <div class="pin-collage">
+          <div class="pin pin-a"></div>
+          <div class="pin pin-b"></div>
+          <div class="pin pin-c"></div>
+          <div class="pin pin-d"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="guides">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">STYLE JOURNAL</span>
+            <h2>Guides & inspiration</h2>
+          </div>
+          <p>SEO-friendly article ideas you can turn into fashion traffic and affiliate clicks.</p>
+        </div>
+
+        <div class="blog-grid">
+          <article class="blog-card">
+            <div class="blog-img blog-1"></div>
+            <div class="blog-body">
+              <span>STYLE GUIDE </span>
+              <h3>7 Easy Outfit Formulas That Always Look Expensive</h3>
+              <a href="#">Read guide →</a>
+            </div>
+          </article>
+          <article class="blog-card">
+            <div class="blog-img blog-2"></div>
+            <div class="blog-body">
+              <span>BUDGET FINDS </span>
+              <h3>10 Chic Fashion Finds Under ₹2,000</h3>
+              <a href="#">Read guide →</a>
+            </div>
+          </article>
+         
+        </div>
+      </div>
+    </section>
+
+    <section class="section newsletter" id="about">
+      <div class="container newsletter-inner">
+        <div>
+          <span class="eyebrow light">THE WEEKLY </span>
+          <h2>Style inspiration in your inbox.</h2>
+          <p>New fashion finds, outfits and budget picks — once a week.</p>
+        </div>
+        <form class="signup-form" id="signupForm">
+          <input type="email" id="emailInput" placeholder="Your email address" aria-label="Email address" required />
+          <button type="submit">Submit</button>
+          <small id="formMessage"></small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="brand footer-brand">Style<span>AuraFashion</span></a>
+        <p>Fashion inspiration, curated finds and everyday style made simple.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="#trending">Trending</a>
+        <a href="#shop">Shop the Look</a>
+        <a href="#guides">Style Guides</a>
+      </div>
+      <div>
+        <h4>Business</h4>
+        <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="mailto:styleaurafashion3@gmail.com">Contact</a>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <a href="https://www.pinterest.com/styleaurafashion3" target="_blank" rel="noopener">Pinterest</a>
+        <a href="https://www.instagram.com/styleaurafashion3" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> StyleAuraFashion. All rights reserved.</span>
+      <span>Made for fashion lovers ✦</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
